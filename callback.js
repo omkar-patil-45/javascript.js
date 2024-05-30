@@ -46,12 +46,24 @@
 // setTimeout(greet, 2000, "Omkar", sayName);
 
 
-function greet(name, myFunction) {
-  console.log("Hello World");
-  myFunction(name);
-}
-function sayName(name) {
-  console.log("Hi", name);
-}
-setTimeout(greet, 2000, "Omkar", sayName);
+// function greet(name, myFunction) {
+//   console.log("Hello World");
+//   myFunction(name);
+// }
+// function sayName(name) {
+//   console.log("Hi", name);
+// }
+// setTimeout(greet, 2000, "Omkar", sayName);
+
+
+// function greet(add) {
+//   console.log(add);
+// }
+// function calculate(a, b, callback) {
+//   let sum = a + b;
+//   return sum;
+//   callback(sum);
+// }
+// let result = calculate(5, 5);
+// greet(result);
 
