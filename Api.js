@@ -10,8 +10,8 @@ const btn = document.querySelector("#btn");
 
 //   let data = await response.json();
 //   factPara.innerText = data[2].text;
-
-// };
+ 
+// }; 
 
 function getFacts() {
   fetch(URL)
