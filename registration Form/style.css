@@ -148,7 +148,7 @@ form .buttons{
   display: flex;
   align-items: center;
 }
-form .buttons button, .backBtn{
+form .buttons button, .backBtn{ 
   margin-right: 14px;
 }
 

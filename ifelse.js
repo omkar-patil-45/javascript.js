@@ -73,11 +73,36 @@
 
 //********************************************************************************************************* */
 
-function findEven(num) {
-  if (num % 2 == 0) {
-    console.log("Even");
-  } else {
-    console.log("Odd");
-  }
+// function findEven(num) {
+//   if (num % 2 == 0) {
+//     console.log("Even");
+//   } else {
+//     console.log("Odd");
+//   }
+// }
+// findEven(10);
+
+
+
+// 1. Give Discount on age ,grnder for metro Ticket .
+// Female gets 50% off.
+// Kds under 5 yer age for Free.
+// kkids upto 8yers have half ticket
+// people over 65 yer oge pay only 30% 
+
+let age = 70;
+let gender = 'female';
+let finalDiscount;
+
+if (age <= 5) {
+  finalDiscount = 100;
+} else if (gender === 'female' || age <= 8) {
+  finalDiscount = 50;
+} else if (age >= 65) {
+  finalDiscount = 30;
+} else {
+  finalDiscount = 0;
 }
-findEven(10);
+
+console.log(`your final discount is ${finalDiscount}`);
+
