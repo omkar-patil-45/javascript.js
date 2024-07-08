@@ -1,17 +1,17 @@
-function Person(firstName, lastName, age) {
-  this.firstName = firstName;
-  this.lastName = lastName;
-  this.age = age;
-  this.fullName = function () {
-    return `${this.firstName + this.lastName}`;
-  }
-  this.greet = function () {
-    console.log(`Hello ${this.fullName()}and my age is${this.age}years old`);
-  }
-}
-const person1 = new Person("Omkar", "Patil", 25);
-console.log(person1.fullName());
-person1.greet();
+// function Person(firstName, lastName, age) {
+//   this.firstName = firstName;
+//   this.lastName = lastName;
+//   this.age = age;
+//   this.fullName = function () {
+//     return `${this.firstName + this.lastName}`;
+//   }
+//   this.greet = function () {
+//     console.log(`Hello ${this.fullName()}and my age is${this.age}years old`);
+//   }
+// }
+// const person1 = new Person("Omkar", "Patil", 25);
+// console.log(person1.fullName());
+// person1.greet();
 
 
 // function person(name, age, gender) {

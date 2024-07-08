@@ -90,19 +90,100 @@
 // kkids upto 8yers have half ticket
 // people over 65 yer oge pay only 30% 
 
-let age = 70;
-let gender = 'female';
-let finalDiscount;
+// let age = 70;
+// let gender = 'female';
+// let finalDiscount;
 
-if (age <= 5) {
-  finalDiscount = 100;
-} else if (gender === 'female' || age <= 8) {
-  finalDiscount = 50;
-} else if (age >= 65) {
-  finalDiscount = 30;
-} else {
-  finalDiscount = 0;
+// if (age <= 5) {
+//   finalDiscount = 100;
+// } else if (gender === 'female' || age <= 8) {
+//   finalDiscount = 50;
+// } else if (age >= 65) {
+//   finalDiscount = 30;
+// } else {
+//   finalDiscount = 0;
+// }
+
+// console.log(`your final discount is ${finalDiscount}`);
+
+
+/////////////////////////////////////////////////////////////////
+// let score = 45;
+// if (score >= 50) {
+//   console.log("You passed the examination");
+// }
+// else {
+//   console.log("You failed the examination");
+// }
+
+
+// let checkNUmber = 10;
+// if (checkNUmber > 0) {
+//   console.log("Positive");
+// } else if (checkNUmber < 0) {
+//   console.log("negetive");
+// } else {
+//   console.log("Zero");
+// }
+
+// const time = 15;
+// if (time < 10) {
+//   console.log("good morning");
+// } else if (time < 19) {
+//   console.log("evening");
+// } else if (time < 22) {
+//   console.log("Night");
+// } else {
+//   console.log("Invalid");
+// }
+
+
+// for loop
+// let sum = 0;
+// const n = 100;
+// for (let i = 1; i <= n; i++) {
+//   sum += i;
+// }
+// console.log(sum);
+
+
+// const fruits = ["apple", "banana", "cherry"];
+// for (let i = 0; i < fruits.length; i++) {
+//   console.log(fruits[i]);
+// }
+
+
+// for (let i = 0; i < 3; i++) {
+//   for (let j = 0; j < 2; j++) {
+//     console.log(`i=${i},j=${j}`);
+//   }
+// }
+
+// const number = 9;
+// for (let i = 1; i <= 10; i++) {
+//   const product = number * i;
+//   console.log(`${number}X${i}=${product}`);
+// }
+
+
+let traficLight = "Green";
+let message = "";
+
+switch (traficLight) {
+  case "red":
+    message = "stop immediately";
+    break;
+
+  case "yellow":
+    message = "Preaper to stop";
+    break;
+
+  case "Green":
+    message = "You can Drive";
+    break;
+
+  default:
+    message = "Invalide traffice color";
 }
-
-console.log(`your final discount is ${finalDiscount}`);
+console.log(message);
 
