@@ -166,24 +166,99 @@
 // }
 
 
-let traficLight = "Green";
-let message = "";
+// let traficLight = "Green";
+// let message = "";
 
-switch (traficLight) {
-  case "red":
-    message = "stop immediately";
-    break;
+// switch (traficLight) {
+//   case "red":
+//     message = "stop immediately";
+//     break;
 
-  case "yellow":
-    message = "Preaper to stop";
-    break;
+//   case "yellow":
+//     message = "Preaper to stop";
+//     break;
 
-  case "Green":
-    message = "You can Drive";
-    break;
+//   case "Green":
+//     message = "You can Drive";
+//     break;
 
-  default:
-    message = "Invalide traffice color";
-}
-console.log(message);
+//   default:
+//     message = "Invalide traffice color";
+// }
+// console.log(message);
 
+
+////////////////////////////////////////////////////////////////////////////////
+let age = 15
+
+// less than 6 years old -> free
+// 6 to 17 years old     -> child discount
+// 18 to 26 years old    -> student discount
+// 27 to 66 years old    -> full price
+// over 66 years old     -> senior citizen discount
+
+// Create a conditional statement (if/else/else if) that logs out the discount
+// the passenger will get based upon the value of the age variable
+
+// if (age < 6) {
+//   console.log("free")
+// } else if (age < 18) {
+//   console.log("child discount")
+// } else if (age < 27) {
+//   console.log("student discount")
+// } else if (age < 67) {
+//   console.log("full price")
+// } else {
+//   console.log("senior citizen discount")
+// }
+
+
+
+//////////////////////////////////////////////////////////////
+// /*
+// Challenge 1:
+// Given an array of numbers, return an array of each number, squared
+// */
+// const nums = [1, 2, 3, 4, 5]
+// // -->       [1, 4, 9, 16, 25]
+// // Your code here
+// const squares = nums.map(function(num) {
+//     return num * num
+// })
+
+// // console.log(squares)
+
+
+
+// /*
+// Challenge 2:
+// Given an array of strings, return an array where 
+// the first letter of each string is capitalized
+// */
+
+// const names = ["alice", "bob", "charlie", "danielle"]
+// // -->        ["Alice", "Bob", "Charlie", "Danielle"]
+// // Your code here
+// const capitalized = names.map(name => (
+//     name[0].toUpperCase() + name.slice(1))
+// )
+// console.log(capitalized)
+
+
+
+// /*
+// Challenge 3:
+// Given an array of strings, return an array of strings that wraps each
+// of the original strings in an HTML-like <p></p> tag.
+
+// E.g. given: ["Bulbasaur", "Charmander", "Squirtle"]
+// return: ["<p>Bulbasaur</p>", "<p>Charmander</p>", "<p>Squirtle</p>"]
+// */
+
+// const pokemon = ["Bulbasaur", "Charmander", "Squirtle"]
+// // -->          ["<p>Bulbasaur</p>", "<p>Charmander</p>", "<p>Squirtle</p>"]
+// // Your code here
+
+// const paragraphs = pokemon.map(mon => `<p>${mon}</p>`)
+
+// console.log(paragraphs)
